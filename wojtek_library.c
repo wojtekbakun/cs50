@@ -21,3 +21,13 @@ char* get_string(char *message)
 
     return string;
 }
+
+int string_length(char *my_string)
+{
+    int n = 0;
+    while (my_string[n] != '\0')
+    {
+        n++;
+    }
+    return n;
+}
